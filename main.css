@@ -117,3 +117,33 @@ footer {
   color: white;
   text-align: center;
   padding: 50px 0; }
+
+.welcome-cont-big {
+  overflow: hidden;
+  height: 75%; }
+
+.welcome-cont {
+  width: 120%;
+  background: gray;
+  margin: 0 -10% 0 -10%;
+  padding: 0 10%;
+  height: 100%;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 50%  150px;
+  border-bottom-right-radius: 50% 150px;
+  overflow: hidden;
+  text-align: center; }
+
+.welcomePage {
+  height: 100%; }
+  .welcomePage ul {
+    align-self: end; }
+    .welcomePage ul li {
+      width: 140px;
+      padding: 5px;
+      margin: 10px; }
+      .welcomePage ul li:hover {
+        color: red;
+        background: none;
+        border: solid red; }
